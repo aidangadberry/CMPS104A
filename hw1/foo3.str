@@ -1,0 +1,5 @@
+intern(/afs/cats.ucsc.edu/users/p/agadberr/private/cs101/foo3.oc) returned 0x6e11b8->"/afs/cats.ucsc.edu/users/p/agadberr/private/cs101/foo3.oc"
+hash[   0]: 17268137653277218015: 0x6e11b8->"/afs/cats.ucsc.edu/users/p/agadberr/private/cs101/foo3.oc"
+load_factor = 0.091
+bucket_count = 11
+max_bucket_size = 1

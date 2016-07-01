@@ -1,0 +1,36 @@
+// $Id: oclib.oh,v 1.30 2014-11-21 16:46:15-08 - - $
+
+#ifndef __OCLIB_OH__
+#define __OCLIB_OH__
+
+#ifdef __OCLIB_C__
+void* xcalloc (int nelem, int size);
+void __putb (char __b);
+void __putc (char __c);
+void __puti (int __i);
+void __puts (char* __s);
+void __endl (void);
+int __getc (void);
+char* __getw (void);
+char* __getln (void);
+char** __getargv (void);
+void __exit (int status);
+
+#else
+#define EOF (-1)
+#define assert(expr) \
+        {if (!(expr)) __assert_fail (#expr, __FILE__, __LINE__);}
+void __assert_fail (string expr, string file, int line);
+void putb (bool b);
+void putc (char c);
+void puti (int i);
+void puts (string s);
+void endl ();
+int getc ();
+string getw ();
+string getln ();
+string[] getargv ();
+void exit (int status);
+
+#endif
+#endif

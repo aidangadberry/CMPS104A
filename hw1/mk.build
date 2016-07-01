@@ -1,0 +1,9 @@
+#!/bin/sh -x
+# $Id: mk.build,v 1.1 2015-03-17 15:42:29-07 - - $
+#
+# This does the build and runs checksource.
+#
+PATH=$PATH:/afs/cats.ucsc.edu/courses/cmps012b-wm/bin
+if [ -f PARTNER ] ; then partnercheck 2>&1 | tee partnercheck.log ; fi
+checksource *.[hly] *.c* Makefile README 2>&1 | tee checksource.log
+gmake 2>&1 | tee gmake.log

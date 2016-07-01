@@ -1,0 +1,10 @@
+Aidan Gadberry
+agadberr
+
+Assignment 3 -  LALR(1) Parser using bison
+
+I don't think my Makefile is properly linking the files, since I
+keep getting an error that " 'astree' does not name a type ", which
+makes it seem like the necessary header file isn't getting included.
+Annoyingly made it so I was never able to actually test my code, so I
+had to do it to the extent that I thought was correct.

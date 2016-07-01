@@ -1,0 +1,13 @@
+Aidan Gadberry
+agadberr
+
+Assignment 1 -  String Set and Preprocessor
+
+After submitting, I accidentally created an empty file
+in the submissions directory by calling vi on main.cpp,
+a nonexistent file. However, I don't have permission to
+remove that file from the directory, so I'm just using
+this as a way to make sure you know to remove that empty
+file before running my program on my actual main.cpp file.
+
+Thanks!

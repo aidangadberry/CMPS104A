@@ -1,0 +1,9 @@
+line 1// $Id: foo.oc,v 1.3 2013-09-19 18:03:21-07 - - $
+__FILE__ __LINE__ __DATE__ __TIME__
+foo.oc, line 3.
+#include "foo1.oh"
+foo.oc, line 5.
+#include "foo2.oh"
+/* Comment */ on line 7
+FOO1 + FOO2;
+foo.oc, line 9, last line.

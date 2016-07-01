@@ -1,0 +1,8 @@
+checksource: line length > 72 characters
+   file "Makefile": 1 errors: line 15
+   file "main.cpp": 4 errors: lines 43, 78--79, 126
+   file "stringset.cpp": 3 errors: lines 22, 30, 33
+   file "stringset.h": 5 errors: lines 8--9, 13--14, 16
+checksource: missing newline at end of line
+   file "auxlib.h": 1 errors: line 114
+checksource: TOTAL COMPLAINTS: 14

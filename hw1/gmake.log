@@ -1,0 +1,6 @@
+g++ -g -O0 -Wall -Wextra -std=gnu++14 -c main.cpp
+main.cpp: In function ‘int main(int, char**)’:
+main.cpp:132:21: error: type ‘std::string {aka class std::basic_string<char>}’ argument given to ‘delete’, expected pointer
+     delete (filename);
+                     ^
+gmake: *** [main.o] Error 1

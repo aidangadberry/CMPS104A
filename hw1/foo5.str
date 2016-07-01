@@ -1,0 +1,5 @@
+intern(foo5.oc) returned 0x2135198->"foo5.oc"
+hash[   1]:  7946029465051656496: 0x2135198->"foo5.oc"
+load_factor = 0.091
+bucket_count = 11
+max_bucket_size = 1

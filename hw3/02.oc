@@ -1,0 +1,17 @@
+int fac (int n) {
+   int f = 1;
+   while (n > 1) {
+      f = f * n;
+      n = n - 1;
+   }
+   return f;
+}
+
+int n = 1;
+while (n <= 5) {
+   puti (fac (n));
+}
+
+int test (int i, int j, int k) {
+   print (i + j + k);
+}

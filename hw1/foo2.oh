@@ -1,0 +1,7 @@
+// $Id: foo2.oh,v 1.2 2011-09-29 19:06:34-07 - - $
+__FILE__ __LINE__ __DATE__ __TIME__
+foo2.h, line 3.
+foo2.h, line 4.
+// Comment.
+foo2.h, line 6. /* Comment */ last line
+#define FOO2 "foo2"
