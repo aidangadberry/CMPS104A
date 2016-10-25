@@ -1,4 +1,4 @@
-o Tmac.mm-etc
+.so Tmac.mm-etc
 .if t .Newcentury-fonts
 .INITR* \n[.F]
 .SIZE 12 14
