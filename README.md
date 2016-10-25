@@ -1,10 +1,9 @@
-# Comparative Programming Languages
-- Cormac Flanagan - Winter 2016
-- https://courses.soe.ucsc.edu/courses/cmps112/
-- https://classes.soe.ucsc.edu/cmps112/Winter16/
+# Fundamentals Of Compiler Design I
 
-- Covers several programming languages and compares styles, philosophy, and design principles. Principles underlying declarative, functional, and object-oriented programming styles are studied. Students write programs emphasizing each of these techniques.
+- Wesley Mackey - Spring 2016
+- https://courses.soe.ucsc.edu/courses/cmps104a
 
+An introduction to the basic techniques used in compiler design. Topics include compiler structure, symbol tables, regular expressions and languages, finite automata, lexical analysis, context-free languages, LL(1), recursive descent, LALR(1), and LR(1) parsing; and attribute grammars as a model of syntax-directed translation. Students use compiler building tools to construct a working compiler.
 <br/>
 
 - **Aidan Gadberry, agadberr@ucsc.edu**
